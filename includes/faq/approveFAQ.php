@@ -4,9 +4,7 @@ require_once MODELS_PATH . '/database.php';
 require_once MODELS_FAQ_PATH . '/FAQ_class.php';
 
 if(isset($_POST['approval'])){
-    $id = $_POST['id'];
 
-    $db = Database::getDb();
     $id = $_POST['id'];
     $approval ="1";
 
@@ -22,9 +20,7 @@ if(isset($_POST['approval'])){
    
 }
 if(isset($_POST['disapproval'])){
-    $id = $_POST['id'];
 
-    $db = Database::getDb();
     $id = $_POST['id'];
     $approval ="0";
 

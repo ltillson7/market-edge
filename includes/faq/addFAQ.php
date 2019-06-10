@@ -85,7 +85,7 @@
                 </div>
                 <div id="questionDiv" class="form-group">
                 <label for="faqTitle">Subject:</label>
-                        <select name="title" id="title" class="form-control">
+                        <select name="title" id="faqTitle" class="form-control">
                         <option value="default">Choose a Subject!</option>
                         <option value="portfolio">Portfolio</option>
                         <option value="stock">Stock</option>

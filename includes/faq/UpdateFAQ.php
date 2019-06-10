@@ -73,7 +73,7 @@
     </div>
     <div id="questionDiv" class="form-group">
         <label class="faqInput" for="questiontitle">Subject:</label>
-        <select name="title" id="title">
+        <select name="title" id="questiontitle">
                 <option value="default" <?php if($question->title == 'default') echo "selected"; ?> >Choose a Subject!</option>
                 <option value="portfolio" <?php if($question->title == 'portfolio') echo "selected"; ?> >Portfolio</option>
                 <option value="stock" <?php if($question->title == 'stock') echo "selected"; ?> >Stock</option>
